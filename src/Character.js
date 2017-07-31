@@ -63,14 +63,12 @@ class Character extends Component {
               Nommer
             </button>
           </div>
-          <div className="App-form-group">
-          <label>Attribuer de nouvelles caractéristiques :</label>
-            <button
-              className="App-btn"
-              onClick={this.createCharacter}>
-              Générer
-            </button>
-          </div>
+          <p>Attribuer de nouvelles caractéristiques :</p>
+          <button
+            className="App-btn"
+            onClick={this.createCharacter}>
+            Générer
+          </button>
         </form> 
         <p className="App-intro">
           Bonjour {this.state.name}, 
